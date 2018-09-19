@@ -1,0 +1,123 @@
+/* DISTANCE OF LIST FROM TOP 
+Increase or decrease the px amount to change the distance from the top. */
+.header {
+  padding-bottom: 400px;  
+}
+  
+
+/* CUSTOM BACKGROUND IMAGE SETTINGS*/
+body {
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+/* HEADERS AND TABLE LINK FONT */
+a {
+color: white !important;
+font-family: arial;
+}
+
+/* CATEGORY HEADER FONT */
+.list-unit .list-status-title .text {
+  color: white !important;
+  font-family: arial;
+}
+
+/* CATEGORY HEADER BACKGROUND COLOR */
+.list-unit .list-status-title {
+  background-color: transparent !important;
+}
+    
+/* LIST LINK FONT */    
+.list-table .list-table-data .data a{
+color: white !important;
+font-family: arial;
+}
+
+/* LIST NON-LINK FONT */    
+body{
+color: white !important; 
+font-family: arial;
+}
+
+/* TAGS EDIT FONT */     
+.list-table .list-table-data .tags .edit{
+color: white !important;
+font-family: arial;
+}
+
+/* LINK COLOR ON HOVER*/  
+a:hover,
+.list-table .list-table-data .data a:hover{
+color: rgba(255, 227, 170.8) !important;   
+}
+
+
+
+
+/*BACKGROUND AND BORDER COLOR OF CATEGORY LINKS 
+The first number in the parenthesis is the amount of red (0-255).
+The second number in the parenthesis is the amount of green (0-255).
+The third number in the parenthesis is the amount of blue (0-255).
+The fourth number in the parenthesis is the amount of opacity (.0 to 1).
+
+Change the fourth number (opacity) to a lesser number like .3 for more transparency. Raise to a higher number like .8 for less transparency.  
+*/
+.status-menu-container{
+  background-color: rgba(248,139,52,.8) !important;
+   border: 1px white solid !important;
+}
+
+
+/* BACKGROUND AND BORDER COLOR OF LIST 
+See BACKGROUND AND BORDER COLOR OF CATEGORY LINKS above for guide on using RGBA colors.
+*/
+.list-block{
+  background-color: rgba(248,139,52,.8) !important;
+   border: 1px white solid !important;
+}
+
+
+/*BACKGROUND COLOR OF ROWS ON HOVER 
+See BACKGROUND AND BORDER COLOR OF CATEGORY LINKS above for guide on using RGBA colors.
+*/
+tbody[class*="list-item"]:hover,
+.list-table tbody:nth-of-type(2n+1):hover {background-color:rgba(248,139,52,.8) !important;}
+
+
+/*OTHER CODES*/
+.list-table > tbody:nth-of-type(2n+1),
+.list-table, .list-container,  
+.list-table .list-table-header .header-title{
+  background-color: transparent !important;
+     border: 0 transparent solid !important;
+}
+.list-table .list-table-data .data{
+  border: 0 transparent solid !important;
+}
+.status-menu-container {
+    border-bottom: transparent 0 solid;
+}
+.list-menu-float{
+  border-collapse: initial !important;
+  border: none !important;
+}
+.list-menu-float .icon-menu {
+  background-color: rgb(248,139,52,.8) !important;
+}
+.list-unit .list-stats{
+  background-color: rgb(248,139,52,.8) !important;
+}
+.list-container,
+.status-menu-container{
+  width: 1100px;
+}
+.list-unit .list-status-title .text{
+  width: 1100px;
+}
+.list-container{
+  justify: center;
+  text-align: center;
+}
